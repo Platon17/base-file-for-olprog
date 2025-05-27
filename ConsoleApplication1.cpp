@@ -2,15 +2,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-#define rep(i,a,n)     for(int i=a;i<n;i++)
 #define pb             push_back
 #define all(v)         v.begin(),v.end()
 #define endl           "\n"
-#define x              first
-#define y              second
 #define sz(a)          (int)a.size()
 #define pii            pair<int,int>
-
+//ifstream in('input.in');
+//ifstream out('output.out');
 
 
 void solve() {
@@ -24,7 +22,8 @@ signed main() {
 	cin.tie(0);
 	cout.tie(0);
 	int t = 1;
-	//cin >> t;
+	cin >> t;
 	while (t--)
 		solve();
+    return 0;
 }
